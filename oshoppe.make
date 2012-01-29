@@ -39,8 +39,8 @@ projects[media_browser_plus][type] = "module"
 projects[media_browser_plus][download][type] = "file"
 projects[media_browser_plus][download][url] = "http://ftp.drupal.org/files/projects/media_browser_plus-7.x-1.0-beta3.tar.gz"
 
-projects[] = media_flickr
-projects[] = media_gallery
+;projects[] = media_flickr
+;projects[] = media_gallery
 projects[] = media_youtube
 projects[] = mediaelement
 projects[] = mediafront
