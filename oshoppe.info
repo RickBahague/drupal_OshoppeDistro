@@ -1,4 +1,4 @@
-name = oshoppe
+name = Oshoppe
 core = 7.x
 description = Oshoppe Base Distro.
 
@@ -13,7 +13,6 @@ dependencies[] = path
 dependencies[] = taxonomy
 
 ; Contrib
-
 dependencies[] = openid
 dependencies[] = openidadmin
 dependencies[] = context_ui
@@ -34,12 +33,12 @@ dependencies[] = delta
 dependencies[] = entity
 dependencies[] = entityreference
 dependencies[] = globalredirect
-dependencies[] = google_analytics
+;dependencies[] = google_analytics
 dependencies[] = libraries
 dependencies[] = media
 dependencies[] = media_browser_plus
-dependencies[] = media_flickr
-dependencies[] = media_gallery
+;dependencies[] = media_flickr
+;dependencies[] = media_gallery
 dependencies[] = media_youtube
 dependencies[] = mediaelement
 dependencies[] = mediafront
