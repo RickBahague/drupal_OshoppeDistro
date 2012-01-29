@@ -1,0 +1,62 @@
+name = oshoppe
+core = 7.x
+description = Oshoppe Base Distro.
+
+; Core
+dependencies[] = book
+dependencies[] = contact
+dependencies[] = dblog
+dependencies[] = field_ui
+dependencies[] = file
+dependencies[] = menu
+dependencies[] = path
+dependencies[] = taxonomy
+
+; Contrib
+
+dependencies[] = openid
+dependencies[] = openidadmin
+dependencies[] = context_ui
+dependencies[] = ctools
+dependencies[] = devel
+dependencies[] = diff
+dependencies[] = features
+dependencies[] = strongarm
+dependencies[] = views
+dependencies[] = views_ui
+
+;oshoppe required
+dependencies[] = auto_nodetitle
+dependencies[] = calendar
+dependencies[] = colorbox
+dependencies[] = date
+dependencies[] = delta
+dependencies[] = entity
+dependencies[] = entityreference
+dependencies[] = globalredirect
+dependencies[] = google_analytics
+dependencies[] = libraries
+dependencies[] = media
+dependencies[] = media_browser_plus
+dependencies[] = media_flickr
+dependencies[] = media_gallery
+dependencies[] = media_youtube
+dependencies[] = mediaelement
+dependencies[] = mediafront
+dependencies[] = metatags_quick
+dependencies[] = omega_tools
+dependencies[] = page_title
+dependencies[] = panels
+dependencies[] = pathauto
+dependencies[] = redirect
+dependencies[] = relatedlinks
+dependencies[] = relevant_content
+dependencies[] = rules
+dependencies[] = search404
+dependencies[] = omega_tools
+dependencies[] = sexybookmarks
+dependencies[] = styles
+dependencies[] = token
+dependencies[] = uuid
+dependencies[] = wysiwyg
+
