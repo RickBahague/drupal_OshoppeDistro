@@ -19,6 +19,7 @@ projects[] = features
 projects[] = openidadmin
 projects[] = strongarm
 projects[] = views
+
 projects[] = auto_nodetitle
 projects[] = calendar
 projects[] = colorbox
