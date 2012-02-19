@@ -56,6 +56,6 @@ dependencies[] = omega_tools
 dependencies[] = sexybookmarks
 dependencies[] = styles
 dependencies[] = token
-dependencies[] = uuid
+;dependencies[] = uuid
 dependencies[] = wysiwyg
 
