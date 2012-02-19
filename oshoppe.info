@@ -26,7 +26,7 @@ dependencies[] = views_ui
 
 ;oshoppe required
 dependencies[] = auto_nodetitle
-dependencies[] = calendar
+;dependencies[] = calendar
 dependencies[] = colorbox
 dependencies[] = date
 dependencies[] = delta
