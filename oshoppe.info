@@ -47,6 +47,7 @@ dependencies[] = omega_tools
 dependencies[] = page_title
 dependencies[] = panels
 dependencies[] = pathauto
+dependencies[] = permission_select
 dependencies[] = redirect
 dependencies[] = relatedlinks
 dependencies[] = relevant_content
