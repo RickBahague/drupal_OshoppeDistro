@@ -2,15 +2,28 @@ name = Oshoppe
 core = 7.x
 description = Oshoppe Base Distro.
 
-; Core
-dependencies[] = book
+dependencies[] = block
+dependencies[] = color
 dependencies[] = contact
-dependencies[] = dblog
-dependencies[] = field_ui
-dependencies[] = file
+dependencies[] = comment
+dependencies[] = contextual
+dependencies[] = dashboard
+dependencies[] = help
+dependencies[] = image
+dependencies[] = list
 dependencies[] = menu
+dependencies[] = number
+dependencies[] = options
 dependencies[] = path
 dependencies[] = taxonomy
+dependencies[] = dblog
+dependencies[] = search
+dependencies[] = shortcut
+dependencies[] = toolbar
+dependencies[] = overlay
+dependencies[] = field_ui
+dependencies[] = file
+dependencies[] = rdf
 
 ; Contrib
 dependencies[] = openid
@@ -42,7 +55,7 @@ dependencies[] = media_browser_plus
 dependencies[] = media_youtube
 dependencies[] = mediaelement
 dependencies[] = mediafront
-dependencies[] = metatags_quick
+;dependencies[] = metatags_quick
 dependencies[] = omega_tools
 dependencies[] = page_title
 dependencies[] = panels
@@ -57,6 +70,7 @@ dependencies[] = omega_tools
 dependencies[] = sexybookmarks
 dependencies[] = styles
 dependencies[] = token
-;dependencies[] = uuid
+dependencies[] = uuid
 dependencies[] = wysiwyg
 
+files[] = oshoppe.profile
