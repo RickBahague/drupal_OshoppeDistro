@@ -2,65 +2,55 @@ name = Oshoppe
 core = 7.x
 description = Oshoppe Base Distro.
 
-dependencies[] = block
-dependencies[] = color
+; Core
+dependencies[] = book
 dependencies[] = contact
-dependencies[] = comment
-dependencies[] = contextual
-dependencies[] = dashboard
-dependencies[] = help
-dependencies[] = image
-dependencies[] = list
-dependencies[] = menu
-dependencies[] = number
-dependencies[] = options
-dependencies[] = path
-dependencies[] = taxonomy
 dependencies[] = dblog
-dependencies[] = search
-dependencies[] = shortcut
-dependencies[] = toolbar
-dependencies[] = overlay
 dependencies[] = field_ui
 dependencies[] = file
-dependencies[] = rdf
+dependencies[] = menu
+dependencies[] = path
+dependencies[] = taxonomy
 
 ; Contrib
+dependencies[] = admin
+dependencies[] = boxes
 dependencies[] = openid
 dependencies[] = openidadmin
+dependencies[] = coder
+dependencies[] = context
 dependencies[] = context_ui
 dependencies[] = ctools
 dependencies[] = devel
 dependencies[] = diff
 dependencies[] = features
+dependencies[] = markdown
 dependencies[] = strongarm
 dependencies[] = views
 dependencies[] = views_ui
 
-;oshoppe required
 dependencies[] = auto_nodetitle
-;dependencies[] = calendar
+dependencies[] = calendar
 dependencies[] = colorbox
 dependencies[] = date
 dependencies[] = delta
 dependencies[] = entity
 dependencies[] = entityreference
 dependencies[] = globalredirect
-;dependencies[] = google_analytics
+dependencies[] = google_analytics
 dependencies[] = libraries
 dependencies[] = media
 dependencies[] = media_browser_plus
-;dependencies[] = media_flickr
-;dependencies[] = media_gallery
+dependencies[] = media_flickr
+dependencies[] = media_gallery
 dependencies[] = media_youtube
 dependencies[] = mediaelement
 dependencies[] = mediafront
-;dependencies[] = metatags_quick
+dependencies[] = metatags_quick
 dependencies[] = omega_tools
 dependencies[] = page_title
 dependencies[] = panels
 dependencies[] = pathauto
-dependencies[] = permission_select
 dependencies[] = redirect
 dependencies[] = relatedlinks
 dependencies[] = relevant_content
@@ -73,4 +63,16 @@ dependencies[] = token
 dependencies[] = uuid
 dependencies[] = wysiwyg
 
-files[] = oshoppe.profile
+;themes
+projects[] = tao
+projects[] = rubik
+projects[omega][type] = "theme"
+projects[omega][download][type] = "file"
+projects[omega][download][url] = "http://ftp.drupal.org/files/projects/omega-7.x-3.0.tar.gz"
+
+libraries
+libraries[jquery.cycle][download][type] = "file"
+libraries[jquery.cycle][download][url] = "http://malsup.github.com/jquery.cycle.all.js"
+
+libraries[ckeditor][download][type] = "file"
+libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor%20for%20Drupal/CKEditor%203.6.2%20for%20Drupal/ckeditor_3.6.2_for_drupal_7.zip"
