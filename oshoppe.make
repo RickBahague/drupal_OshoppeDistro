@@ -64,7 +64,6 @@ projects[] = relatedlinks
 projects[] = relevant_content
 projects[] = rules
 projects[] = search404
-projects[] = omega_tools
 projects[] = sexybookmarks
 projects[] = styles
 projects[] = token
