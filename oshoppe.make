@@ -2,7 +2,7 @@ api = 2
 core = 7.x
 
 ;Include Build Kit distro makefile via URL
-includes[] = http://drupalcode.org/project/buildkit.git/blob_plain/refs/heads/7.x-2.x:/distro.make
+;includes[] = http://drupalcode.org/project/buildkit.git/blob_plain/refs/heads/7.x-2.x:/distro.make
 
 ;themes
 projects[] = tao
@@ -23,11 +23,8 @@ libraries[jquery.cycle][download][url] = "http://malsup.github.com/jquery.cycle.
 
 projects[] = admin
 projects[] = boxes
-projects[] = openid
-projects[] = openidadmin
 projects[] = coder
 projects[] = context
-projects[] = context_ui
 projects[] = ctools
 projects[] = devel
 projects[] = diff
@@ -35,8 +32,6 @@ projects[] = features
 projects[] = markdown
 projects[] = strongarm
 projects[] = views
-projects[] = views_ui
-
 projects[] = auto_nodetitle
 projects[] = calendar
 projects[] = colorbox
@@ -46,6 +41,7 @@ projects[] = entity
 projects[] = entityreference
 projects[] = globalredirect
 projects[] = google_analytics
+projects[] = jcarousel
 projects[] = libraries
 projects[] = media
 projects[] = media_browser_plus

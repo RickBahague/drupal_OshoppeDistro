@@ -15,11 +15,8 @@ dependencies[] = taxonomy
 ; Contrib
 dependencies[] = admin
 dependencies[] = boxes
-dependencies[] = openid
-dependencies[] = openidadmin
 dependencies[] = coder
 dependencies[] = context
-dependencies[] = context_ui
 dependencies[] = ctools
 dependencies[] = devel
 dependencies[] = diff
@@ -27,8 +24,6 @@ dependencies[] = features
 dependencies[] = markdown
 dependencies[] = strongarm
 dependencies[] = views
-dependencies[] = views_ui
-
 dependencies[] = auto_nodetitle
 dependencies[] = calendar
 dependencies[] = colorbox
@@ -37,12 +32,13 @@ dependencies[] = delta
 dependencies[] = entity
 dependencies[] = entityreference
 dependencies[] = globalredirect
-dependencies[] = google_analytics
+;dependencies[] = googleanalytics
+dependencies[] = jcarousel
 dependencies[] = libraries
 dependencies[] = media
-dependencies[] = media_browser_plus
-dependencies[] = media_flickr
-dependencies[] = media_gallery
+;dependencies[] = media_browser_plus
+;dependencies[] = media_flickr
+;dependencies[] = media_gallery
 dependencies[] = media_youtube
 dependencies[] = mediaelement
 dependencies[] = mediafront
@@ -57,5 +53,11 @@ dependencies[] = search404
 dependencies[] = sexybookmarks
 dependencies[] = styles
 dependencies[] = token
-dependencies[] = uuid
+;dependencies[] = uuid
 dependencies[] = wysiwyg
+
+; Information added by drush on 2012-03-07
+version = "unknown"
+project = "oshoppe"
+datestamp = "1331061349"
+
