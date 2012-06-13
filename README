@@ -10,7 +10,7 @@ We hope other developers will find this useful and not waste time looking for co
 How to use:
 1. Download the oshoppe-distro.make file
 2. Create download directory
-3. run: "drush make oshoppe-distro.make ." in your download directory
+3. run: "drush make oshoppe-distro.make yourdir"
 
 Drush make is required.
 
