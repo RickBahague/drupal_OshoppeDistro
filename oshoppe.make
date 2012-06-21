@@ -27,8 +27,8 @@ projects[] = omega
 libraries[jquery.cycle][download][type] = "file"
 libraries[jquery.cycle][download][url] = "http://malsup.github.com/jquery.cycle.all.js"
 
-libraries[ckeditor][download][type] = "file"
-libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor%20for%20Drupal/CKEditor%203.6.2%20for%20Drupal/ckeditor_3.6.2_for_drupal_7.zip"
+;libraries[ckeditor][download][type] = "file"
+;libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor%20for%20Drupal/CKEditor%203.6.2%20for%20Drupal/ckeditor_3.6.2_for_drupal_7.zip"
 
 ;modules
 projects[] = boxes
@@ -62,7 +62,7 @@ projects[] = panels
 projects[] = pathauto
 projects[] = redirect
 projects[] = rules
-projects[] = search404] = 1.1
+projects[] = search404
 projects[] = sexybookmarks
 projects[] = styles
 projects[] = token
