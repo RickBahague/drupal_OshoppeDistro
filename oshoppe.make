@@ -1,6 +1,8 @@
 api = 2
 core = 7.x
 
+projects[drupal][type] = "core"
+
 ; github clone
 ;projects[tao][type] = theme
 ;projects[tao][download][type] = git
