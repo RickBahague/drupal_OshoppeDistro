@@ -3,12 +3,6 @@ core = 7.x
 
 projects[]=drupal
 
-;To include the most recent views module:
-projects[] = views
-
-; for a specific version
-projects[]=cck
-
 ; github clone
 ;projects[tao][type] = theme
 ;projects[tao][download][type] = git
@@ -34,6 +28,7 @@ libraries[jquery.cycle][download][url] = "http://malsup.github.com/jquery.cycle.
 ;modules
 projects[] = boxes
 projects[] = context
+projects[] = cck
 projects[] = ctools
 projects[] = cck_blocks
 projects[] = devel
