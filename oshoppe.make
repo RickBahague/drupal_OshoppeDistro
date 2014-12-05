@@ -8,7 +8,6 @@ projects[] = views
 
 ; for a specific version
 projects[]=cck
-projects[] = ctools
 
 ; github clone
 ;projects[tao][type] = theme
