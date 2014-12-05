@@ -28,7 +28,7 @@ libraries[jquery.cycle][download][url] = "http://malsup.github.com/jquery.cycle.
 ;modules
 projects[] = boxes
 projects[] = context
-projects[] = cck
+;projects[] = cck
 projects[] = ctools
 projects[] = cck_blocks
 projects[] = devel
