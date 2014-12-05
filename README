@@ -8,9 +8,7 @@ Oshoppe Distro packs common modules and the omega theme used by OpenSourceShoppe
 We hope other developers will find this useful and not waste time looking for common modules they need to start developing. 
 
 How to use:
-1. Download the oshoppe-distro.make file
-2. Create download directory
-3. run: "drush make oshoppe-distro.make yourdir"
+1. run:  drush make --force-complete --prepare-install https://raw.githubusercontent.com/RickBahague/OshoppeDistro/master/oshoppe.make <your_install_dir>
 
 Drush make is required.
 
