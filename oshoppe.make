@@ -1,12 +1,14 @@
 api = 2
 core = 7.x
 
+projects[]=drupal
+
 ;To include the most recent views module:
-;projects[] = views
+projects[] = views
 
 ; for a specific version
-;projects[cck] = 2.6
-;projects[ctools][version] = 1.3
+projects[]=cck
+projects[] = ctools
 
 ; github clone
 ;projects[tao][type] = theme
